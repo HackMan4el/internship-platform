@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudWork - Найди свою практику</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Подключение шрифта Impact через Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Impact&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Задний слой: бежевый фон с линиями и фигурами -->
+    <div class="background-layer">
+        <div class="rainbow-lines"></div>
+        <div class="floating-shape shape1"></div>
+        <div class="floating-shape shape2"></div>
+        <div class="floating-shape shape3"></div>
+    </div>
+
+    <!-- Появляющаяся шапка -->
+    <header class="sticky-header">
+        <div class="sticky-logo">StudWork</div>
+        <nav class="sticky-navigation">
+            <a href="#" class="nav-button button1">Главная</a>
+            <a href="#" class="nav-button button2">Практики</a>
+            <a href="#" class="nav-button button3">О нас</a>
+            <a href="#" class="nav-button button4">Контакты</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Поиск практик...">
+        </div>
+    </header>
+
+    <!-- Передний слой: контент -->
+    <div class="content-layer">
+        <!-- Основная шапка -->
+        <header class="main-header">
+            <img src="logo.png" alt="StudWork Logo" class="logo">
+            <nav class="navigation">
+                <a href="#" class="nav-button button1">Главная</a>
+                <a href="#" class="nav-button button2">Практики</a>
+                <a href="#" class="nav-button button3">О нас</a>
+                <a href="#" class="nav-button button4">Контакты</a>
+            </nav>
+        </header>
+
+        <!-- Секция с иллюстрацией и диалогами -->
+        <section class="illustration-section">
+            <div class="illustration">
+                <img src="employer.png" alt="Работодатель" class="employer">
+                <img src="student.png" alt="Студент" class="student">
+                <!-- Диалоговые облачка -->
+                <div class="chat-container">
+                    <div class="speech-bubble student-bubble bubble1">Как подготовиться к практике?</div>
+                    <div class="speech-bubble employer-bubble bubble2">Составь резюме и изучи компанию!</div>
+                    <div class="speech-bubble student-bubble bubble3">А что надеть на собеседование?</div>
+                    <div class="speech-bubble employer-bubble bubble4">Деловой стиль, но будь собой!</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Слоган и кнопка -->
+        <section class="slogan">
+            <h1>Быстрый путь к ценному опыту</h1>
+            <button class="start-button">НАЧАТЬ</button>
+        </section>
+
+        <!-- Бегущая строка с работодателями -->
+        <section class="partners">
+            <h2>Наши партнеры</h2>
+            <div class="carousel">
+                <div class="carousel-track">
+                    <div class="logo"><img src="company1.png" alt="Company 1"></div>
+                    <div class="logo"><img src="company2.png" alt="Company 2"></div>
+                    <div class="logo"><img src="company3.png" alt="Company 3"></div>
+                    <div class="logo"><img src="company4.png" alt="Company 4"></div>
+                    <!-- Дублируем для бесконечной прокрутки -->
+                    <div class="logo"><img src="company1.png" alt="Company 1"></div>
+                    <div class="logo"><img src="company2.png" alt="Company 2"></div>
+                    <div class="logo"><img src="company3.png" alt="Company 3"></div>
+                    <div class="logo"><img src="company4.png" alt="Company 4"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Карточки популярных должностей в стиле билетов -->
+        <section class="positions">
+            <h2>Популярные практики</h2>
+            <div class="card-container">
+                <a href="#" class="card ticket">
+                    <div class="ticket-decor">⚡ TECH-TEC ⚡</div>
+                    <h3>Инженер-Электрик</h3>
+                    <div class="ticket-info">
+                        <p>Дата: Фев. 1</p>
+                        <p>Длительность: 28 дней</p>
+                        <p>Формат: Очно</p>
+                    </div>
+                </a>
+                <a href="#" class="card ticket">
+                    <div class="ticket-decor">⚡ TECH-TEC ⚡</div>
+                    <h3>Маркетолог</h3>
+                    <div class="ticket-info">
+                        <p>Дата: Фев. 1</p>
+                        <p>Длительность: 28 дней</p>
+                        <p>Формат: Очно</p>
+                    </div>
+                </a>
+                <a href="#" class="card ticket">
+                    <div class="ticket-decor">⚡ TECH-TEC ⚡</div>
+                    <h3>Разработчик</h3>
+                    <div class="ticket-info">
+                        <p>Дата: Фев. 1</p>
+                        <p>Длительность: 28 дней</p>
+                        <p>Формат: Очно</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Таймлайн в виде лесенки с маскотом -->
+        <section class="timeline">
+            <h2>Как начать?</h2>
+            <div class="timeline-container">
+                <div class="timeline-steps">
+                    <div class="step">
+                        <span class="step-number">1</span>
+                        <p>Зарегистрироваться</p>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">2</span>
+                        <p>Подать заявку</p>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">3</span>
+                        <p>Пройти собеседование</p>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">4</span>
+                        <p>Начать практику</p>
+                    </div>
+                </div>
+                <div class="mascot">
+                    <img src="mascot.png" alt="Маскот">
+                    <div class="mascot-bubble">Следуй этим шагам, чтобы начать практику!</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Подвал -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="StudWork Logo">
+                </div>
+                <div class="footer-links">
+                    <h3>Навигация</h3>
+                    <a href="#">Главная</a>
+                    <a href="#">Практики</a>
+                    <a href="#">О нас</a>
+                    <a href="#">Контакты</a>
+                </div>
+                <div class="footer-contact">
+                    <h3>Свяжитесь с нами</h3>
+                    <p>Email: info@studwork.com</p>
+                    <p>Телефон: +7 (123) 456-78-90</p>
+                    <div class="social-links">
+                        <a href="#"><img src="https://www.flaticon.com/ru/free-icons/" alt="Facebook"></a>
+                        <a href="#"><img src="telegram.png" alt="Twitter"></a>
+                        <a href="#"><img src="instagram.png" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>StudWork © 2025. Все права защищены.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript для управления шапкой -->
+    <script>
+        window.addEventListener('scroll', function() {
+            const stickyHeader = document.querySelector('.sticky-header');
+            const slogan = document.querySelector('.slogan');
+            const sloganPosition = slogan.getBoundingClientRect().top;
+
+            if (sloganPosition <= 0) {
+                stickyHeader.classList.add('visible');
+            } else {
+                stickyHeader.classList.remove('visible');
+            }
+        });
+    </script>
+</body>
+</html>
